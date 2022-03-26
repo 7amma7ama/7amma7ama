@@ -1,0 +1,5 @@
+                 BoxCollider m_Collider;
+
+             m_Collider = GetComponent<BoxCollider>();
+
+           Debug.Log("Current BoxCollider Size : " + m_Collider.bounds.size);
